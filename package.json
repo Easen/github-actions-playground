@@ -1,0 +1,29 @@
+{
+  "name": "github-actions-playground",
+  "version": "1.0.0-development",
+  "description": "github-actions-playground",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Easen/github-actions-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Easen/github-actions-playground/issues"
+  },
+  "homepage": "https://github.com/Easen/github-actions-playground#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.7"
+  }
+}
